@@ -5,6 +5,10 @@ import ShowMessage from '@/components/ShowMessage'
 import UserName from '@/components/UserName'
 import MsgComp from '@/components/MsgComp'
 import ColorChangerParent from '@/components/ColorChangerParent'
+import ForLoop from '@/components/ForLoop'
+import Condition from '@/components/Condition'
+import EventComp from '@/components/EventComp'
+import Time from '@/components/Time'
 
 Vue.use(Router)
 
@@ -34,6 +38,26 @@ export default new Router({
       path: '/change-color',
       name: 'ColorChangerParent',
       component: ColorChangerParent
+    },
+    {
+      path: '/looping',
+      name: 'ForLoop',
+      component: ForLoop
+    },
+    {
+      path: '/condition',
+      name: 'Condition',
+      component: Condition
+    },
+    {
+      path: '/event',
+      name: 'EventComp',
+      component: EventComp
+    },
+    {
+      path: '/time',
+      name: 'Time',
+      component: Time
     }
   ]
 })

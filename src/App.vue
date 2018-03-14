@@ -6,6 +6,10 @@
         <li><router-link to='/username'>Usernmae</router-link></li>
         <li><router-link to='/reverse-msg'>Reverse Message</router-link></li>
         <li><router-link to='/change-color'>Change Color</router-link></li>
+        <li><router-link to='/condition'>Condition</router-link></li>
+        <li><router-link to='/looping'>Looping</router-link></li>
+        <li><router-link to='/event'>Event</router-link></li>
+        <li><router-link to='/time'>Time</router-link></li>
       </ul>
     </div>
     <div class='body'>
@@ -41,5 +45,6 @@ export default {
 }
 li {
   text-align: left;
+  margin-bottom: 10px;
 }
 </style>
