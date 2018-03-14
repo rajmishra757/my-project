@@ -26,7 +26,7 @@ export default {
     };
   },
   components: {
-    ColorChanger,
+    'color-changer': ColorChanger,
   },
   methods: {
     changeStyleValue: function (color) {
