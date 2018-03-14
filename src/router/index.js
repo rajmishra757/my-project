@@ -4,6 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import ShowMessage from '@/components/ShowMessage'
 import UserName from '@/components/UserName'
 import MsgComp from '@/components/MsgComp'
+import ColorChangerParent from '@/components/ColorChangerParent'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/reverse-msg',
       name: 'MsgComp',
       component: MsgComp
+    },
+    {
+      path: '/change-color',
+      name: 'ColorChangerParent',
+      component: ColorChangerParent
     }
   ]
 })
