@@ -1,7 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <div class='header'>
+      <ul>
+        <li><router-link to='/hello'>Hello</router-link></li>
+      </ul>
+    </div>
+    <div class='body'>
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -19,5 +25,18 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.header {
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+.body {
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+li {
+  text-align: left;
 }
 </style>
