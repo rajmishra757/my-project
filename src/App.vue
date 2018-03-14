@@ -4,6 +4,7 @@
       <ul>
         <li><router-link to='/show-message'>Show Message</router-link></li>
         <li><router-link to='/username'>Usernmae</router-link></li>
+        <li><router-link to='/reverse-msg'>Reverse Message</router-link></li>
       </ul>
     </div>
     <div class='body'>
