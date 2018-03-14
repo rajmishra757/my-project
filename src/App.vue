@@ -2,7 +2,7 @@
   <div id="app">
     <div class='header'>
       <ul>
-        <li><router-link to='/hello'>Hello</router-link></li>
+        <li><router-link to='/show-message'>Show Message</router-link></li>
       </ul>
     </div>
     <div class='body'>
