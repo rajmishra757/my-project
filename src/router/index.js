@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import ShowMessage from '@/components/ShowMessage'
+import UserName from '@/components/UserName'
 
 Vue.use(Router)
 
@@ -16,6 +17,11 @@ export default new Router({
       path: '/show-message',
       name: 'ShowMessage',
       component: ShowMessage
+    },
+    {
+      path: '/username',
+      name: 'UserName',
+      component: UserName
     }
   ]
 })
