@@ -9,6 +9,7 @@ import ForLoop from '@/components/ForLoop'
 import Condition from '@/components/Condition'
 import EventComp from '@/components/EventComp'
 import Time from '@/components/Time'
+import SlotParent from '@/components/SlotParent'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/time',
       name: 'Time',
       component: Time
+    },
+    {
+      path: '/slot',
+      name: 'SlotParent',
+      component: SlotParent
     }
   ]
 })

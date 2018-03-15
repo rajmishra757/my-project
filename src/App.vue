@@ -10,6 +10,7 @@
         <li><router-link to='/looping'>Looping</router-link></li>
         <li><router-link to='/event'>Event</router-link></li>
         <li><router-link to='/time'>Time</router-link></li>
+        <li><router-link to='/slot'>Slot</router-link></li>
       </ul>
     </div>
     <div class='body'>
