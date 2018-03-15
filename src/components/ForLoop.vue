@@ -15,6 +15,8 @@
         {{ item.name }}
       </li>
     </ol>
+    <!--<h2>Maximum Limit of v-for</h2>
+    <p v-for='n in 125600' :key='n'>{{n}}</p>-->
   </div>
 </template>
 
